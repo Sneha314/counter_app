@@ -1,0 +1,86 @@
+*{
+    
+    margin: 0 auto;
+}
+.container{
+    background-image:linear-gradient(to bottom right,rgb(0,16,171,0.96),rgb(57,255,243,1));
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 331px;
+    height: 425px;
+    background: white;
+    background-size: 100%;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    box-shadow: 5px 5px 100px black;
+}
+#app_name{
+    margin-top:26px;
+    margin-left: 60px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 100px;
+}
+.btn_1{
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border: 3px solid rgb(0,16,171,0.96);
+    padding: 10px;
+    margin-top:277px;
+    margin-left:-205px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 100px;
+    padding-left: 50px;
+    padding-right: 135px;
+    box-shadow: 5px 5px 9px rgb(0,16,171,0.96);
+}
+.btn_2{
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border: 3px solid rgb(0,16,171,0.96);
+    padding: 10px;
+    margin-top:20px;
+    margin-left:-205px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 100px;
+    padding-left: 50px;
+    padding-right: 135px;
+    box-shadow: 5px 5px 9px rgb(0,16,171,0.96);
+
+}
+#text{
+color:rgb(0,16,171,0.96) ;
+}
+#counter-app {
+    text-align: center;
+    margin-top: 160px;
+    margin-left: -45px;
+    font-size: 81px;
+
+  }
+  .counter-text{
+    background-color: white;
+    background-image:linear-gradient(to bottom right,rgb(0,16,171,0.96),rgb(57,255,243,1));
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color:transparent;
+
+
+  }
